@@ -53,7 +53,7 @@ jobs:
       run: |
         OPTUNA_VERSION=$(cut -d '"' -f 2 optuna_integration/version.py)
         DATE=`date +"%Y%m%d"`
-        echo "__version__ = \"${OPTUNA_VERSION}${DATE}-test-oicd\"" > optuna_integration/version.py
+        echo "__version__ = \"${OPTUNA_VERSION}00000000\"" > optuna_integration/version.py
 
     - name: Build a tar ball
       run: |
