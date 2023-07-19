@@ -15,7 +15,7 @@ jobs:
     name: Build and publish Python distributions to PyPI or TestPyPI
     runs-on: ubuntu-latest
     permissions:
-+      id-token: write
+      id-token: write
 
     # Not intended for forks.
     # if: github.repository == 'optuna/optuna-integration'
